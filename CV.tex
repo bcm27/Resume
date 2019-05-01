@@ -3,13 +3,6 @@
 % -*- coding: UTF-8; -*-
 % vim: set fenc=utf-8
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SIMPLE-RESUME-CV
-%% <https://github.com/zachscrivena/simple-resume-cv>
-%% This is free and unencumbered software released into the
-%% public domain; see <http://unlicense.org> for details.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % See "README.md" for instructions on compiling this document.
 
 \documentclass[a4paper,MMMyyyy,nonstopmode]{simpleresumecv}
@@ -20,11 +13,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PREAMBLE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\thispagestyle{empty}
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Bjørn Mathisen}
 \newcommand{\CVTitle}{Bjørn Mathisens Resume}
-\newcommand{\CVNote}{CV compiled on {\today} for Acme Corporation}
+\newcommand{\CVNote}{CV compiled on {\today} for Software Developer Position }
 \newcommand{\CVWebpage}{https://bjornmathisen.com/}
 
 % PDF settings and properties.
@@ -34,7 +27,7 @@ pdfauthor={\CVAuthor},
 pdfsubject={\CVWebpage},
 pdfcreator={XeLaTeX},
 pdfproducer={},
-pdfkeywords={Resume, Software Developer, Programmer, Entry Level},
+pdfkeywords={Resume, Software Developer, Programmer, Entry Level, IT},
 unicode=true,
 bookmarks=true,
 bookmarksopen=true,
@@ -87,16 +80,16 @@ breaklinks}
 \Entry
 \href{http://www.principiacollege.edu/}
 {\textbf{Principia College}},
-Elsah, Illinois, USA
+Elsah, Illinois
+\hfill
+\DatestampYMD{2014}{8}{15} --
+\DatestampYMD{2018}{12}{12}
 
 \Gap
 \BulletItem
 B.S. in
 \href{http://www.principiacollege.edu/computer-science}
 {Computer Science}
-\hfill
-\DatestampYMD{2014}{8}{15} --
-\DatestampYMD{2018}{12}{12}
 \begin{Detail}
 \SubBulletItem
 Highlighted Courses: Software Architecture, Computer Hardware Architecture, Software Engineering 
@@ -115,14 +108,14 @@ Experience}
 \Entry
 \href{https://zerma.com/en}
 {\textbf{Zerma}},
-Northbrook, Illinois, USA
+Northbrook, Illinois
+\hfill \DatestampYMD{2019}{01}{01} --
+\DatestampYMD{2019}{04}{13}
 
 \Gap
 \BulletItem
 Field Engineer
-\hfill
-\DatestampYMD{2019}{01}{01} --
-\DatestampYMD{2019}{04}{13}
+
 \begin{Detail}
 \SubBulletItem
 Handled the installation of granulators and shredders, weighing anywhere from three hundred pounds to twentyfive tons at factories around the United States. 
@@ -144,14 +137,13 @@ Performed maintenance on inventory management computers and sped up operating sp
 \href{http://www.mccdistrict.org/rccms/}
 {\textbf{
 McHenry County Conservation District}},
-Mchenry, Illinois, USA
+Mchenry, Illinois
+\hfill \DatestampYMD{2014}{05}{20} --
+\DatestampYMD{2018}{08}{05}
 
 \Gap
 \BulletItem
 Season Maintenance Construction Worker
-\hfill
-\DatestampYMD{2014}{05}{20} --
-\DatestampYMD{2018}{08}{05}
 \begin{Detail}
 \SubBulletItem
 Worked with a crew of two individuals who operated out of a shop to maintain over forty different parks, buildings and other sites. Duties includes construction work, pouring concrete, building structural maintenance and electrical work.
@@ -161,14 +153,15 @@ Worked with a crew of two individuals who operated out of a shop to maintain ove
 
 \href{http://www.mccdistrict.org/rccms/}
 {\textbf{Observatory Manager \& Engineering TA}},
-Elsah, Illinois, USA
+Elsah, Illinois
+\hfill
+\DatestampYMD{2015}{01}{12} --
+\DatestampYMD{2018}{12}{12}
 
 \Gap
 \BulletItem
 Observatory Manager
-\hfill
-\DatestampYMD{2015}{01}{12} --
-\DatestampYMD{2018}{12}{12}
+
 \begin{Detail}
 \SubBulletItem
 Organized and trained over eight student operators; maintained the observatory schedule and organized public campus-wide events on a weekly basis.
