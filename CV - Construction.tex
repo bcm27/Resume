@@ -1,0 +1,327 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[a4paper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Bjørn Mathisen}
+\newcommand{\CVTitle}{Bjørn Mathisens Resume}
+\newcommand{\CVNote}{CV compiled on {\today} for the Construction/Carpenter position}
+\newcommand{\CVNote}{CV compiled on {\today} for the Construction/Carpenter position}
+\newcommand{\CVWebpage}{https://bjornmathisen.com/}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={construction, carpentry, maintenance, apprentice},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://goo.gl/maps/PwzyUhnuM922} %shortened link to home address
+{265 Melody Lane, Carpentersville, Illinois 60110, USA}
+\par
+\href{mailto:contact@bjornmathisen.com}
+{contact@bjornmathisen.com}
+\,\SubBulletSymbol\,
++1\,(224)\,622-8543
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{Bjørn Mathisen}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.principiacollege.edu/}
+{\textbf{Principia College}},
+Elsah, Illinois
+\hfill
+\DatestampYMD{2014}{8}{15} --
+\DatestampYMD{2018}{12}{12}
+
+\Gap
+\BulletItem
+B.S. in
+\href{http://www.principiacollege.edu/computer-science}
+{Computer Science}
+\begin{Detail}
+\SubBulletItem
+Highlighted Courses: Software Architecture, Computer Hardware Architecture, Software Engineering 
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Work\newline
+Experience}
+{Work Experience}
+{PDF:WorkExperience}
+
+\Entry
+\href{https://zerma.com/en}
+{\textbf{Zerma}},
+Northbrook, Illinois
+\hfill \DatestampYMD{2019}{01}{01} --
+\DatestampYMD{2019}{06}{28}
+
+\Gap
+\BulletItem
+Field Engineer
+
+\begin{Detail}
+\SubBulletItem
+Fascilitated the installation of large industrial grade machinery such as grinders, granulators, and shredders. Delt with customers and plant managers to fascilitate the installation. 
+\SubBulletItem
+Maintained an inventory of knives, motors and other maintenance items as well as handled the shipping and handling of machinery and parts.
+\end{Detail}
+\BulletItem
+General IT
+\begin{Detail}
+\SubBulletItem
+Created an Access Database linked with Excel from 15 different data sources using a Python web crawler. 
+Created an email automated email campaign with over 12 thousand contacts using a custom built in house systems.
+\SubBulletItem
+Performed maintenance on inventory management computers and sped up operating speeds by eighty percent.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%
+
+\href{http://www.mccdistrict.org/rccms/}
+{\textbf{
+McHenry County Conservation District}},
+Mchenry, Illinois
+\hfill \DatestampYMD{2014}{05}{20} --
+\DatestampYMD{2018}{08}{05}
+
+\Gap
+\BulletItem
+Season Maintenance Construction Worker
+\begin{Detail}
+\SubBulletItem
+Performed maintenance and construction for a park district with over 100 properties. Did demos of buildings and fascilitated the construction and completion of projects with a team of two. 
+\SubBulletItem
+Framed Windos, poured concretee, built full additions to existing buildings, basic eletrical work and did door installation. Performed any task requested through a work order form and performed general construction for the department. 
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%
+
+{\textbf{Custom Carpentry}},
+Carpentersville, Illinois
+\hfill
+\DatestampYMD{2010}{05}{12} --
+\DatestampYMD{2013}{08}{08}
+
+\Gap
+\BulletItem
+Laborer 
+
+\begin{Detail}
+\SubBulletItem
+Basic laborer and construction apprentice, carried cinder blocks, demos buildings, shingled roofs. 
+\SubBulletItem
+Carried heavy loads.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\BulletItem
+Eagle Scout,
+Earned in Spring of 2012,
+Boy Scouts of America
+\hfill
+\DatestampY{2008} --
+\DatestampY{2012}
+\begin{Detail}
+\Item
+Attained the rank of Eagle, the highest and most prestigious of all the ranks in Boy Scouts.
+\end{Detail}
+
+\Gap
+\BulletItem
+\href{https://www.toastmasters.org/Education/Communication-Track}{Competent Communicator,
+Toastmasters International}
+\hfill
+\DatestampYMD{2005}{05}{15}
+\begin{Detail}
+\Item
+For delivering 10 speeches and satisfying the requirements for the Competent Communicator Award. 
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL CERTIFICATIONS & ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+%{Professional Affiliations\newline
+%\& Activities}
+%{Professional Affiliations \& Activities}
+%{PDF:ProfessionalAffiliationsActivities}
+
+%\Entry
+%\href{http://www.example.com/my-society}
+%{\textbf{Joint Society of Earth Scientists and Global Think Tank on Climate Resiliency}},
+%\newline
+%North Attleborough, Massachusetts, USA
+
+%\Gap
+%\BulletItem
+%Member
+%\hfill
+%\DatestampY{2009} --
+%Present
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Campus Activities}
+{Campus Activities}
+{PDF:CampusActivities}
+
+\Entry
+\href{http://www.example.com/my-club}
+{\textbf{Astronomy Club}},
+Principia College
+
+\Gap
+\BulletItem
+President
+\hfill
+\DatestampYMD{2015}{01}{01} --
+\DatestampYMD{2018}{12}{12}
+\begin{Detail}
+\SubBulletItem
+Created and advertised activities for students campus wide, organized campus presentations with Dr. Laurance Doyle of NASA SETI program.
+
+\Entry
+\Gap
+\href{https://www.principiasolarcar.com/}
+{\textbf{Solar Car}},
+Principia College
+
+\BulletItem
+Member
+\end{Detail}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BulletItem
+English: Native language.
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+Framing,
+Drywall Install,
+Basic Eletrical, 
+Concretre Pouring and Install,
+Blueprint Reading, 
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+Digital photography,
+Hiking and Camping.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Dr. Tom Fuller}
+\newline
+Professor of Computer Science and Head of the Computer Science Dept.
+\newline
+Principia College
+\newline
+1 Maybeck Place, Elsah, Illinois 62028, USA
+\newline
+\href{mailto:tom.fuller@principia.edu}
+{tom.fuller@principia.edu}
+
+\end{Body}
+\end{document}
