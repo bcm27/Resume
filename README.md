@@ -11,7 +11,7 @@ simple-resume-cv
 
 ## Overview
 
-The main XeLaTeX source file is `CV.tex`; the compiled document is `CV.pdf`.
+The main XeLaTeX source file is `CV normal.tex`; the compiled document is `CV normal.pdf` || `Bjorn Mathisen Resume.PDF`.
 
 Instructions for compiling the document (TeX &rarr;(XeLaTeX)&rarr; PDF):
 
