@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  8 AUG 2019 17:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  11 AUG 2019 12:18
 entering extended mode
 **./CV-tech.tex
 (CV-tech.tex
@@ -730,23 +730,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.349 \end{document}
+l.344 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
  (CV-tech.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 344.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 344.
 Package rerunfilecheck Info: File `CV-tech.out' has not changed.
 (rerunfilecheck)             Checksum: C6AB03942450B1CA7C371C2114AF72C1.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
  )
 (\end occurred inside a group at level 3)
 
@@ -757,7 +757,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
 Here is how much of TeX's memory you used:
  26406 strings out of 427748
  503984 string characters out of 3144554
- 585491 words of memory out of 3000000
+ 584491 words of memory out of 3000000
  30336 multiletter control sequences out of 15000+200000
  532850 words of font info for 44 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
