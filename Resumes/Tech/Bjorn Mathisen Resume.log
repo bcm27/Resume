@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  11 AUG 2019 14:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  12 AUG 2019 11:26
 entering extended mode
 **"./Bjorn Mathisen Resume.tex"
 ("Bjorn Mathisen Resume.tex"
@@ -731,24 +731,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 \end{document}
+l.348 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
  ("Bjorn Mathisen Resume.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 347.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 348.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
 Package rerunfilecheck Info: File `"Bjorn Mathisen Resume".out' has not changed
 .
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  )
 (\end occurred inside a group at level 3)
 
@@ -763,6 +763,6 @@ Here is how much of TeX's memory you used:
  30336 multiletter control sequences out of 15000+200000
  532850 words of font info for 44 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 47i,5n,69p,944b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,5n,69p,944b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Bjorn Mathisen Resume.pdf (1 page).
