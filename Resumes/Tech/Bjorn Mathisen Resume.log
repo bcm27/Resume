@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  12 AUG 2019 11:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.4.30)  15 AUG 2019 11:54
 entering extended mode
 **"./Bjorn Mathisen Resume.tex"
 ("Bjorn Mathisen Resume.tex"
@@ -723,6 +723,12 @@ l.68
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[][]\TU/Tinos-Regular.ttf(0)/m/n/8.6 Highlighted Courses: Programming Languages
+, Data Structures, Database Management Systems,
+ []
 
 
 ! LaTeX Error: \begin{SubTitle} on input line 56 ended by \end{document}.
