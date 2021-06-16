@@ -1,0 +1,139 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "",
+    "projects": "",
+    "awards": ""
+  },
+  "basics": {
+    "name": "Bjorn Mathisen",
+    "email": "thebcm27@gmail.com",
+    "phone": "224-622-8543",
+    "website": "github.com/bcm27",
+    "location": {
+      "address": "Minneapolis, 55408"
+    }
+  },
+  "education": [
+    {
+      "institution": "Principia College",
+      "location": "Elsah, IL",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "August 2014",
+      "endDate": "December 2018"
+    },
+    {}
+  ],
+  "work": [
+    {
+      "location": "Minneapolis, MN",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "January 2021",
+      "endDate": "June 2021",
+      "highlights": [
+        "Worked within a team using an Agile style workflow to take on requests from Home Depot business contacts to facilitate changes and bug fixes for the in-house product catalog software.",
+        "Met daily with QA to ensure code compliances and for quality testing of completed work",
+        "Wrote unit tests prior to submitting to QA for quality assurance testing",
+        null
+      ],
+      "company": "Andersen Windows"
+    },
+    {
+      "highlights": [
+        "Troubleshot network connectivity issues relating to firewalls, software and hardware issues",
+        "Used command line tools for all troubleshooting in PowerShell, Bash and Linux",
+        "Troubleshot physical and mechanical issues "
+      ],
+      "company": "Micro Center Corp",
+      "position": "IT and 1st Tier Support Technician",
+      "location": "Saint Louis Park, MN",
+      "startDate": "November 2019",
+      "endDate": "January 2021"
+    },
+    {
+      "highlights": [
+        "Worked with the client to design and build a custom static page website for content presentation",
+        "Designed UX pages to display clients image heavy product listings"
+      ],
+      "company": "Martina Carter Entertainment",
+      "position": "Website Programmer",
+      "location": "Chicago, IL",
+      "startDate": "August 2019",
+      "endDate": "December 2019"
+    },
+    {
+      "highlights": [
+        "Wrote a Python web crawler using public libraries to extract information and format it in XML",
+        "Created a RDBMS database hosted on AWS and wrote SQL queries to join and merge the data",
+        "Used advanced database techniques to remove 100% of the inaccurate information, trimming down the data size from 45k to 17k usable data points"
+      ],
+      "company": "Zerma",
+      "position": "Data Analyst and Python Programmer",
+      "location": "Northbrook, IL",
+      "startDate": "February 2019",
+      "endDate": "May 2019"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Primary Languages",
+      "level": "",
+      "keywords": [
+        "C#, Python, .Net, C, C++, SQL"
+      ]
+    },
+    {
+      "keywords": [
+        "Java, MongoDB, JavaScript, PHP, HTML/CSS, Bash, XML, .NET Core"
+      ],
+      "name": "Familiar with"
+    },
+    {
+      "keywords": [
+        "LISP, Ruby on Rails, Modula-2, 32-bit Assembly Code, R, Perl"
+      ],
+      "name": "Some Familiarity"
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Unreal Engine Video Game",
+      "url": "",
+      "keywords": [
+        "C++, Unreal Engine 4, Animation, 3D Modeling, asynchronous server architecture"
+      ],
+      "description": "A first person action RPG video game with a procedurally generated layout, dynamic GOAP AI combatants and multiplayer support. Capable of handling up to 100 concurrent connected players. "
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Python Chat App",
+      "description": "A python GUI and UDP server capable of handling multiple encrypted connections and dynamically storing chat history on a per user basis."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Eagle Scout",
+      "date": "",
+      "summary": "“Eagle Scout” is not just an award; it is a state of being. It represents integrity and the ability to do hard work"
+    },
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
