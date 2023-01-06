@@ -1,3 +1,5 @@
+This is the readme for generating latex pdfs contained within the root/latex generation
+================
 simple-resume-cv
 ================
 
@@ -13,7 +15,7 @@ simple-resume-cv
 
 The main XeLaTeX source file is `CV normal.tex`; the compiled document is `CV normal.pdf` || `Bjorn Mathisen Resume.PDF`.
 
-Instructions for compiling the document (TeX &rarr;(XeLaTeX)&rarr; PDF):
+Instructions for compiling the document:
 
 - **Method 1:** Use `latexmk` for fully automated document generation:
 	- `latexmk -xelatex "CV.tex"`
@@ -21,10 +23,5 @@ Instructions for compiling the document (TeX &rarr;(XeLaTeX)&rarr; PDF):
 
 - **Method 2:** Use `XeLaTeX` directly:
 	- `xelatex "CV.tex"`
-	(run multiple times to resolve cross-references if needed)
-
-## License
-
-This is free and unencumbered software released into the public domain.
-For more information, please see the file `LICENSE` or refer to <http://unlicense.org>.
+	(run multiple times to resolve cross-references if needed
 
